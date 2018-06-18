@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="app_name">cs496Final-RestfulRecipes</string>
+    <string name="mTitle">RESTful Recipes</string>
+    <string name="mAuthor">   - by James Abreu</string>
+    <string name="activity_newIngredient">New Ingredient</string>
+    <string name="activity_newRecipe">New Recipe</string>
+    <string name="activity_ingredients">Ingredients</string>
+    <string name="activity_recipes">Recipes</string>
+
+    <!-- ALL INGREDIENTS ACTIVITY -->
+    <string name="all_ing_pullDescr">Pull Ingredient Data from server: </string>
+    <string name="name_h">Name</string>
+    <string name="baseUnit_h">Unit</string>
+    <string name="calories_h">Calories/unit</string>
+    <string name="cost_h">Cost/unit</string>
+    <string name="getButton">GET</string>
+    <string name="DelButton">DELETE</string>
+    <string name="EditButton">EDIT</string>
+
+    <!-- EDIT INGREDIENT ACTIVITY -->
+    <string name="defaultText">enter in value</string>
+    <string name="EditIngredientTitle">Edit Ingredient</string>
+    <string name="sendButton">Send</string>
+    <string name="deleteWarning">Warning! Deleting an ingredient also deletes any related recipes! This CANNOT be undone!</string>
+
+    <!-- NEW INGREDIENT ACTIVITY -->
+    <string name="allRequired">Note: All fields required</string>
+
+    <!-- ALL RECIPES ACTIVITY -->
+    <string name="all_rec_pullDescr">Pull Recipe Data from server: </string>
+    <string name="r_name_h">Recipe Name: </string>
+    <string name="r_author_h">Author</string>
+    <string name="r_desc_default">(description)</string>
+    <string name="r_desc_h">Description</string>
+    <string name="r_ingredients_h">Ingredients</string>
+    <string name="r_directions_h">Directions</string>
+    <string name="r_clickToView">Click to view recipe</string>
+
+    <!-- Recipe Ingredient -->
+    <string name="r_ing_name_h">Ingredient</string>
+    <string name="r_ing_amount_h">Qty</string>
+    <string name="r_ing_unit_h">Unit</string>
+
+    <!-- EDIT RECIPE ACTIVITY -->
+
+
+
+
+</resources>

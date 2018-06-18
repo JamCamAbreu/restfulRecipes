@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6sp"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical"
+        android:padding="4sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:orientation="horizontal"
+            android:padding="4sp">
+
+            <TextView
+                android:id="@+id/rec_name_h"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/r_name_h"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rec_name_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:orientation="horizontal"
+            android:padding="4sp">
+
+            <TextView
+                android:id="@+id/rec_author_h"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/r_author_h"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rec_author_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rec_description_val"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:padding="4sp"
+            android:text="@string/r_desc_default"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:orientation="vertical"
+            android:padding="4sp">
+
+            <TextView
+                android:id="@+id/rec_clickToDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4sp"
+                android:text="@string/r_clickToView"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

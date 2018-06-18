@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".editIngredient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6sp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/EditIngredientTitle"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/edit_unit_h"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:padding="4sp"
+                android:text="@string/name_h"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="4sp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_name_val"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:gravity="center"
+                    android:padding="4sp" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/edit_unit_h"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:padding="4sp"
+                android:text="@string/baseUnit_h"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="4sp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_unit_val"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:gravity="center"
+                    android:padding="4sp" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/edit_cal_h"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:padding="4sp"
+                android:text="@string/calories_h"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="4sp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_cal_val"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:gravity="center"
+                    android:padding="4sp" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4sp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/edit_cost_h"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:padding="4sp"
+                android:text="@string/cost_h"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="4sp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_cost_val"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4sp"
+                    android:gravity="center"
+                    android:padding="4sp" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/deleteWarning1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6sp"
+            android:text="@string/deleteWarning"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="319dp">
+
+            <Button
+                android:id="@+id/delete_ing_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_light"
+                android:gravity="center"
+                android:text="@string/DelButton" />
+
+            <Button
+                android:id="@+id/edit_ing_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_light"
+                android:text="@string/sendButton" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
