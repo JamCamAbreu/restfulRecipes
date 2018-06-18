@@ -1,0 +1,17 @@
+Abreu, James - CS 496-400, Spring 2018: Final Project
+
+Site usage:
+GET      "/"                             - Home Directory (here)
+GET      "/ingredient"                   - view all ingredients
+GET      "/ingredient/:ingredient_id"    - view a specific ingredient
+GET      "/recipe"                       - view all recipes
+GET      "/recipe/:recipe_id"            - view a specific recipe
+
+POST     "/ingredient"                   - Create a new ingredient with all necessary data
+POST     "/recipe"                       - Create a new recipe with all necessary data
+
+DELETE   "/ingredient/:ingredient_id"    - delete a specific ingredient, and ALL related recipes!
+DELETE   "/recipe/:recipe_id"            - delete a specific recipe (does not affect ingredients)
+
+PATCH    "/ingredient/:ingredient_id"    - modify one or more properties of an ingredient
+PATCH    "/recipe/:recipe_id"            - modify one or more properties of a recipe. If updating ingredient list, include updated ALL ingredients
